@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/player_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_25"
+        android:gravity="center_horizontal"
+        android:text="Virat Kohli"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_22" />
+
+    <TextView
+        android:id="@+id/player_runs_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_15"
+        android:gravity="center_horizontal"
+        android:text="Runs: 87"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_18" />
+
+    <TextView
+        android:id="@+id/player_balls_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_15"
+        android:gravity="center_horizontal"
+        android:text="Balls: 78"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_18" />
+
+    <TextView
+        android:id="@+id/player_four_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_15"
+        android:gravity="center_horizontal"
+        android:text="Fours: 12"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_18" />
+
+    <TextView
+        android:id="@+id/player_six_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_15"
+        android:gravity="center_horizontal"
+        android:text="Sixs: 4"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_18" />
+
+    <TextView
+        android:id="@+id/player_strike_rate_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_15"
+        android:gravity="center_horizontal"
+        android:text="Strike Rate: 111.53"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_18" />
+
+</LinearLayout>
