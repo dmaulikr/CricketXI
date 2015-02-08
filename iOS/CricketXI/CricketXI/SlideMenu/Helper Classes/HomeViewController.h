@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "SlideNavigationController.h"
+#import "MatchLiveScoreBoardViewController.h"
 
-@interface HomeViewController : UIViewController <SlideNavigationControllerDelegate>
+@interface HomeViewController : UIViewController <SlideNavigationControllerDelegate, UIScrollViewDelegate>{
+
+    NSMutableArray *viewControllers;
+    BOOL pageControlUsed;
+}
+
 
 @property (nonatomic, strong) IBOutlet UISwitch *limitPanGestureSwitch;
 @property (nonatomic, strong) IBOutlet UISwitch *slideOutAnimationSwitch;
@@ -27,5 +33,16 @@
 - (IBAction)enablePanGestureSelected:(id)sender;
 - (IBAction)portraitSlideOffsetChanged:(id)sender;
 - (IBAction)landscapeSlideOffsetChanged:(id)sender;
+
+
+#pragma mark - 
+
+@property (strong, nonatomic) IBOutlet UIScrollView *matchScoreCardScrollView;
+
+@property (nonatomic, retain) NSMutableArray *viewControllers;
+
+- (IBAction)changePage:(id)sender;
+
+
 
 @end

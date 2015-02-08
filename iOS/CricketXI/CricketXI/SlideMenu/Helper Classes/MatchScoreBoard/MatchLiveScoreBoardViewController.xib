@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MatchLiveScoreBoardViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Etn-Df-vtK"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="India_Flag.png" translatesAutoresizingMaskIntoConstraints="NO" id="8p4-NH-qKs">
+                    <rect key="frame" x="15" y="15" width="70" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="FeA-bc-AMU"/>
+                        <constraint firstAttribute="width" constant="70" id="X5P-Ec-Qs2"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pakistan_Flag.png" translatesAutoresizingMaskIntoConstraints="NO" id="45X-EY-Mj8">
+                    <rect key="frame" x="235" y="15" width="70" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India vs Pakistan" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfb-jp-jtE">
+                    <rect key="frame" x="113" y="6" width="94" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="3d0-Kh-6h1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="wfb-jp-jtE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="6" id="8iW-f8-CQi"/>
+                <constraint firstItem="8p4-NH-qKs" firstAttribute="height" secondItem="45X-EY-Mj8" secondAttribute="height" id="G6f-It-diw"/>
+                <constraint firstItem="8p4-NH-qKs" firstAttribute="top" secondItem="45X-EY-Mj8" secondAttribute="top" id="WBn-e4-uZL"/>
+                <constraint firstItem="8p4-NH-qKs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="Zi1-GO-7jx"/>
+                <constraint firstItem="8p4-NH-qKs" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="dFo-mq-dsE"/>
+                <constraint firstItem="wfb-jp-jtE" firstAttribute="leading" secondItem="8p4-NH-qKs" secondAttribute="trailing" constant="28" id="hAL-BQ-4v6"/>
+                <constraint firstItem="8p4-NH-qKs" firstAttribute="width" secondItem="45X-EY-Mj8" secondAttribute="width" id="lhV-u4-fI5"/>
+                <constraint firstItem="45X-EY-Mj8" firstAttribute="leading" secondItem="wfb-jp-jtE" secondAttribute="trailing" constant="28" id="ttp-25-bcp"/>
+                <constraint firstAttribute="trailing" secondItem="45X-EY-Mj8" secondAttribute="trailing" constant="15" id="wIP-eh-WZE"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="140" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="India_Flag.png" width="70" height="70"/>
+        <image name="Pakistan_Flag.png" width="70" height="70"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -85,21 +85,28 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lce-AH-vjS">
-                                <rect key="frame" x="76" y="85" width="168" height="29"/>
+                                <rect key="frame" x="76" y="73" width="168" height="29"/>
                                 <segments>
                                     <segment title="Current"/>
                                     <segment title="Upcoming"/>
                                 </segments>
                             </segmentedControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qws-m3-JbR">
+                                <rect key="frame" x="11" y="111" width="299" height="100"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Cricket XI" id="YV6-8b-6Lr"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="matchScoreCardScrollView" destination="Qws-m3-JbR" id="ODR-vv-i7P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wf8-rc-ajb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="817" y="-307"/>
+            <point key="canvasLocation" x="692" y="-349"/>
         </scene>
         <!--No Menu-->
         <scene sceneID="b5b-is-lY2">
@@ -173,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QC9-GK-F3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="499" y="49"/>
+            <point key="canvasLocation" x="335" y="-42"/>
         </scene>
         <!--Profile-->
         <scene sceneID="xeE-nX-pb6">

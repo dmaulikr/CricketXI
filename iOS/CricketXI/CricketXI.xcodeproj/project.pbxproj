@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1516E3BA1A87676300823F0D /* MatchLiveScoreBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1516E3B91A87676300823F0D /* MatchLiveScoreBoardViewController.m */; };
+		1516E3BC1A8769F600823F0D /* MatchLiveScoreBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1516E3BB1A8769F600823F0D /* MatchLiveScoreBoardViewController.xib */; };
+		1516E3C71A877FF000823F0D /* India_Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1516E3C01A877FF000823F0D /* India_Flag.png */; };
+		1516E3C81A877FF100823F0D /* India_Flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1516E3C11A877FF000823F0D /* India_Flag@2x.png */; };
+		1516E3C91A877FF100823F0D /* India_Flag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1516E3C21A877FF000823F0D /* India_Flag@3x.png */; };
+		1516E3CA1A877FF100823F0D /* Pakistan_Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1516E3C41A877FF000823F0D /* Pakistan_Flag.png */; };
+		1516E3CB1A877FF100823F0D /* Pakistan_Flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1516E3C51A877FF000823F0D /* Pakistan_Flag@2x.png */; };
+		1516E3CC1A877FF100823F0D /* Pakistan_Flag@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1516E3C61A877FF000823F0D /* Pakistan_Flag@3x.png */; };
 		152F10151A8749DB003F4AA6 /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F0FF31A8749DB003F4AA6 /* FriendsViewController.m */; };
 		152F10161A8749DB003F4AA6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F0FF51A8749DB003F4AA6 /* HomeViewController.m */; };
 		152F10171A8749DB003F4AA6 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 152F0FF71A8749DB003F4AA6 /* LeftMenuViewController.m */; };
@@ -46,6 +54,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1516E3B81A87676300823F0D /* MatchLiveScoreBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchLiveScoreBoardViewController.h; path = MatchScoreBoard/MatchLiveScoreBoardViewController.h; sourceTree = "<group>"; };
+		1516E3B91A87676300823F0D /* MatchLiveScoreBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchLiveScoreBoardViewController.m; path = MatchScoreBoard/MatchLiveScoreBoardViewController.m; sourceTree = "<group>"; };
+		1516E3BB1A8769F600823F0D /* MatchLiveScoreBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MatchLiveScoreBoardViewController.xib; path = MatchScoreBoard/MatchLiveScoreBoardViewController.xib; sourceTree = "<group>"; };
+		1516E3C01A877FF000823F0D /* India_Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = India_Flag.png; sourceTree = "<group>"; };
+		1516E3C11A877FF000823F0D /* India_Flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "India_Flag@2x.png"; sourceTree = "<group>"; };
+		1516E3C21A877FF000823F0D /* India_Flag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "India_Flag@3x.png"; sourceTree = "<group>"; };
+		1516E3C41A877FF000823F0D /* Pakistan_Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pakistan_Flag.png; sourceTree = "<group>"; };
+		1516E3C51A877FF000823F0D /* Pakistan_Flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pakistan_Flag@2x.png"; sourceTree = "<group>"; };
+		1516E3C61A877FF000823F0D /* Pakistan_Flag@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pakistan_Flag@3x.png"; sourceTree = "<group>"; };
 		152F0FF21A8749DB003F4AA6 /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
 		152F0FF31A8749DB003F4AA6 /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
 		152F0FF41A8749DB003F4AA6 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -111,6 +128,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1516E3BD1A877FF000823F0D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1516E3BE1A877FF000823F0D /* Flags */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1516E3BE1A877FF000823F0D /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				1516E3BF1A877FF000823F0D /* India */,
+				1516E3C31A877FF000823F0D /* Pakistan */,
+			);
+			path = Flags;
+			sourceTree = "<group>";
+		};
+		1516E3BF1A877FF000823F0D /* India */ = {
+			isa = PBXGroup;
+			children = (
+				1516E3C01A877FF000823F0D /* India_Flag.png */,
+				1516E3C11A877FF000823F0D /* India_Flag@2x.png */,
+				1516E3C21A877FF000823F0D /* India_Flag@3x.png */,
+			);
+			path = India;
+			sourceTree = "<group>";
+		};
+		1516E3C31A877FF000823F0D /* Pakistan */ = {
+			isa = PBXGroup;
+			children = (
+				1516E3C41A877FF000823F0D /* Pakistan_Flag.png */,
+				1516E3C51A877FF000823F0D /* Pakistan_Flag@2x.png */,
+				1516E3C61A877FF000823F0D /* Pakistan_Flag@3x.png */,
+			);
+			path = Pakistan;
+			sourceTree = "<group>";
+		};
 		152F0FF01A8749DB003F4AA6 /* SlideMenu */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +190,9 @@
 				152F0FFB1A8749DB003F4AA6 /* ProfileViewController.m */,
 				152F0FFC1A8749DB003F4AA6 /* RightMenuViewController.h */,
 				152F0FFD1A8749DB003F4AA6 /* RightMenuViewController.m */,
+				1516E3B81A87676300823F0D /* MatchLiveScoreBoardViewController.h */,
+				1516E3B91A87676300823F0D /* MatchLiveScoreBoardViewController.m */,
+				1516E3BB1A8769F600823F0D /* MatchLiveScoreBoardViewController.xib */,
 			);
 			path = "Helper Classes";
 			sourceTree = "<group>";
@@ -227,6 +284,7 @@
 		155E030B1A8299B300B5E5DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1516E3BD1A877FF000823F0D /* Images */,
 				155E030C1A8299B300B5E5DE /* Info.plist */,
 				155E030D1A8299B300B5E5DE /* main.m */,
 			);
@@ -330,14 +388,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1516E3C81A877FF100823F0D /* India_Flag@2x.png in Resources */,
 				152F10241A8749DB003F4AA6 /* menu-button.png in Resources */,
 				152F101B1A8749DB003F4AA6 /* animation.png in Resources */,
+				1516E3C91A877FF100823F0D /* India_Flag@3x.png in Resources */,
+				1516E3BC1A8769F600823F0D /* MatchLiveScoreBoardViewController.xib in Resources */,
 				152F101C1A8749DB003F4AA6 /* gear.png in Resources */,
+				1516E3CC1A877FF100823F0D /* Pakistan_Flag@3x.png in Resources */,
+				1516E3C71A877FF000823F0D /* India_Flag.png in Resources */,
 				155E031A1A8299B400B5E5DE /* Main.storyboard in Resources */,
 				152F101E1A8749DB003F4AA6 /* rightMenu.jpg in Resources */,
+				1516E3CB1A877FF100823F0D /* Pakistan_Flag@2x.png in Resources */,
 				152F101D1A8749DB003F4AA6 /* leftMenu.jpg in Resources */,
 				155E031F1A8299B400B5E5DE /* LaunchScreen.xib in Resources */,
 				155E031C1A8299B400B5E5DE /* Images.xcassets in Resources */,
+				1516E3CA1A877FF100823F0D /* Pakistan_Flag.png in Resources */,
 				152F10251A8749DB003F4AA6 /* menu-button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +432,7 @@
 				152F10231A8749DB003F4AA6 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				152F10201A8749DB003F4AA6 /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				155E03171A8299B400B5E5DE /* ViewController.m in Sources */,
+				1516E3BA1A87676300823F0D /* MatchLiveScoreBoardViewController.m in Sources */,
 				152F10261A8749DB003F4AA6 /* SlideNavigationController.m in Sources */,
 				152F10171A8749DB003F4AA6 /* LeftMenuViewController.m in Sources */,
 				152F10211A8749DB003F4AA6 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
@@ -430,7 +496,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gregory Bowrin (T4P4GAB8EV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gregory Bowrin (T4P4GAB8EV)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -471,7 +538,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gregory Bowrin (T4P4GAB8EV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Gregory Bowrin (T4P4GAB8EV)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -493,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gregory Bowrin (T4P4GAB8EV)";
 				INFOPLIST_FILE = CricketXI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +572,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Gregory Bowrin (T4P4GAB8EV)";
 				INFOPLIST_FILE = CricketXI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
