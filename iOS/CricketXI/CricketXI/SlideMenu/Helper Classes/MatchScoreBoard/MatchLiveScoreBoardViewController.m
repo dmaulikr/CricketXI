@@ -25,9 +25,8 @@ static NSArray *__pageControlColorList = nil;
     _pageNumberLabel.text = [NSString stringWithFormat:@"Page %d", pageNumber + 1];
     self.view.backgroundColor = kFlagBackgroundColor;
     
-    UIButton *fullScoreCardButton = [UIButton bu]
+//    UIButton *fullScoreCardButton = [UIButton but]
     
-    UIButton *fullScoreCardButton = [UIButton ]
     
 
 }
