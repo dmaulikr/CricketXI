@@ -46,7 +46,8 @@
         android:text="@string/poll"
         android:textColor="@android:color/white"
         android:textSize="@dimen/text_18"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:visibility="gone" />
 
     <!-- activity_screen_slide.xml -->
 
